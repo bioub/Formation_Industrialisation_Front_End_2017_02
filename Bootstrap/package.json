@@ -1,7 +1,15 @@
 {
   "name": "hello-bootstrap",
   "dependencies": {
-    "bootstrap": "^3.2.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "jquery": "^1.12.4"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start:dev": "http-server"
   }
 }

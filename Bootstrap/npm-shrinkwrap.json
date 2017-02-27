@@ -1,0 +1,20 @@
+{
+  "name": "hello-bootstrap",
+  "dependencies": {
+    "bootstrap": {
+      "version": "3.3.7",
+      "from": "bootstrap@3.3.7",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz"
+    },
+    "font-awesome": {
+      "version": "4.7.0",
+      "from": "font-awesome@latest",
+      "resolved": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+    },
+    "jquery": {
+      "version": "1.12.4",
+      "from": "jquery@1.12.4",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-1.12.4.tgz"
+    }
+  }
+}
