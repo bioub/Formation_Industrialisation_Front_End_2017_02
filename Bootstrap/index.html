@@ -50,6 +50,7 @@
     <div class="container">
         <h1>Un super site !!!</h1>
         <p>Et son pas si mauvais slogan...</p>
+        <p class="horloge"></p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#contactModal">Contact</a></p>
     </div>
 </div>
@@ -120,7 +121,12 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="node_modules/jquery/dist/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Include all compiled plugins (below), or inc
+lude individual files as needed -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+<script>
+    System.import('js/main.js');
+</script>
 </body>
 </html>

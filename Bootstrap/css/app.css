@@ -19,6 +19,12 @@
 body {
   position: relative;
 }
+#menu a {
+  color: #2b542c;
+}
+#menu a:hover {
+  text-decoration: underline;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1102,12 +1108,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: green;
+  color: #461188;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #003400;
+  color: #230844;
   text-decoration: underline;
 }
 a:focus {
@@ -3105,7 +3111,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: green;
+  color: #461188;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3126,7 +3132,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #003400;
+  color: #230844;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3200,7 +3206,7 @@ input[type="button"].btn-block {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: green;
+  border-color: #461188;
 }
 .nav .nav-divider {
   height: 1px;
@@ -3888,7 +3894,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #bef4be;
+  background-color: #9468ca;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -3900,7 +3906,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #93ec93;
+  border-top-color: #7943bc;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {

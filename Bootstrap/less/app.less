@@ -22,13 +22,23 @@ body {
   position: relative;
 }
 
+#menu {
+  a {
+    color: #2b542c;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 // Core variables and mixins
 @import "../node_modules/bootstrap/less/variables.less";
 @import "../node_modules/bootstrap/less/mixins.less";
 
 @icon-font-path: '../node_modules/bootstrap/fonts/';
-@link-color: green;
-@jumbotron-bg: desaturate(lighten(@link-color, 60%), 30%);
+@link-color: #461188;
+@jumbotron-bg: desaturate(lighten(@link-color, 30%), 30%);
 
 // Reset and dependencies
 @import "../node_modules/bootstrap/less/normalize.less";
